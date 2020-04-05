@@ -38,7 +38,9 @@
         <p class="mb-0 align-self-center">
           Epidemics like the coronavirus outbreak are a mirror for humanity, reflecting the moral relationships that people have toward one other.
           -
-          <span class="text-italic">Historian Frank M. Snowden</span>
+          <span
+            class="text-italic"
+          >Historian Frank M. Snowden</span>
         </p>
       </div>
     </div>
@@ -53,9 +55,11 @@
         <br />
 
         <a
-          href="https://docs.google.com/forms/d/e/1FAIpQLSfNZ7XUnqYOofogwC__BGE4l8KDtiUR1zZtdIW6Q-23gecGCw/viewform?usp=sf_link" class="mr-4" 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfNZ7XUnqYOofogwC__BGE4l8KDtiUR1zZtdIW6Q-23gecGCw/viewform?usp=sf_link"
+          class="mr-4"
+          target="_blank"
         >I got something to say</a>
-        <a href="#">Fork it on Github</a>
+        <a href="https://github.com/bibhuticoder/corona-board" target="_blank">Fork it on Github</a>
       </p>
     </div>
   </div>
