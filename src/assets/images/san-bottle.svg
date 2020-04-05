@@ -1,0 +1,24 @@
+<svg width="248" height="548" viewBox="0 0 248 548" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="98" height="74" rx="16" transform="matrix(-1 0 0 1 173 0.375061)" fill="#A1BAC2"/>
+<rect width="149" height="99" rx="16" transform="matrix(-1 0 0 1 199 43.3751)" fill="#B8D3DC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M248 225.875C248 160.982 195.393 108.375 130.5 108.375H117.5C52.6066 108.375 0 160.982 0 225.875V361.997V481.375C0 517.826 29.5492 547.375 66 547.375H182C218.451 547.375 248 517.826 248 481.375V361.997V225.875Z" fill="#D5F3FD"/>
+<path d="M153 129.375C196.76 129.375 232 167.774 232 216.375" stroke="#EEFBFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M104 129.375C60.2404 129.375 16 178.774 16 227.375" stroke="#B5E5F4" stroke-width="20" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2703 304.663C15.6621 393.069 16.2703 461.65 16.2703 461.65C16.2703 500.71 45.7691 532.375 82.1576 532.375H166.014C202.403 532.375 231.902 500.71 231.902 461.65C231.902 461.65 232.123 349.973 231.902 374.736C231.68 399.498 16.8785 216.257 16.2703 304.663Z" fill="#7AC27C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M231.73 303.572C232.338 394.343 231.73 464.759 231.73 464.759C231.73 504.864 202.231 537.375 165.842 537.375H81.9858C45.5972 537.375 16.0985 504.864 16.0985 464.759C16.0985 464.759 15.8769 321.607 16.0985 347.032C16.3201 372.457 231.122 212.802 231.73 303.572Z" fill="#61A764"/>
+<path d="M225.755 469.015C225.755 504.008 198.975 532.375 165.941 532.375" stroke="#72AD75" stroke-width="10" stroke-linecap="round"/>
+<path d="M83 526.735C49.9657 526.735 23.1861 498.368 23.1861 463.375" stroke="#549556" stroke-width="10" stroke-linecap="round"/>
+<ellipse rx="15.5" ry="20.5" transform="matrix(-1 0 0 1 167.5 398.875)" fill="#49804C"/>
+<circle r="20" transform="matrix(-1 0 0 1 151 244.375)" fill="#61A764"/>
+<ellipse rx="2.67626" ry="7.18654" transform="matrix(0.464549 -0.885547 -0.885547 -0.464549 157.393 235.084)" fill="#8BC18E"/>
+<ellipse rx="4.25274" ry="9.62613" transform="matrix(0.464549 -0.885547 -0.885547 -0.464549 143.5 257.613)" fill="#72B975"/>
+<ellipse rx="12" ry="11.5" transform="matrix(-1 0 0 1 102 193.875)" fill="#61A764"/>
+<ellipse rx="1.55353" ry="4.27379" transform="matrix(0.480166 -0.877178 -0.893449 -0.449165 105.836 188.532)" fill="#8BC18E"/>
+<ellipse rx="1.73096" ry="6.59033" transform="matrix(0.480166 -0.877178 -0.893449 -0.449165 98.2511 200.259)" fill="#72B975"/>
+<ellipse rx="15.5" ry="20.5" transform="matrix(-1 0 0 1 81.5 398.875)" fill="#49804C"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M139 443.375C138.799 454.466 131.939 463.375 123.505 463.375C115.07 463.375 108.21 454.466 108.009 443.375H139Z" fill="#49804C"/>
+<path d="M58 108.375V66.3751C58 57.5385 65.1634 50.3751 74 50.3751" stroke="#8AA1A8" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M192 118.375V58.3751" stroke="#D4DEE1" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M163 36.3751V15.3751" stroke="#BDC6C9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M83 36.3751V15.3751C83 10.9568 86.5817 7.37506 91 7.37506" stroke="#8BA3AB" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
