@@ -32,7 +32,7 @@
                   :dot-style="{ backgroundColor: '#373737' }"
                   :rail-style="{ backgroundColor: '#373737', borderColor: '#373737' }"
                   :label-style="{ backgroundColor: '#373737', borderColor: '#373737' }"
-                  :label-active-style="{ backgroundColor: '#373737', borderColor: '#373737' }"
+                  :label-active-style="{backgroundColor: '#373737', borderColor: '#373737' }"
                 />
                 <br />
                 <p class="lead">
