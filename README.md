@@ -1,19 +1,6 @@
-# corona-board-vue
+# 📺 Corona Board
 
-## Project setup
-```
-npm install
-```
+Coronaboard is a web dashboard that gives you latest information, all over the World. The application tries to provide information regarding the virus and the epidemic in an interactive way.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Demo
+https://bibhuticoder.github.io/corona-board/
