@@ -1,9 +1,10 @@
 <template>
   <div class="--stats-near-you text-center mt-4 mb-4 pt-4">
     <div class="container-fluid">
-      <div class="title mb-4 mt-4 p-relative">
+      <div class="title mb-4 mt-4">
         <span class="text align-self-center">Cases Around You</span>
-        <div class="icon align-self-center">🧐</div>
+        <div class="icon">🧐</div>
+        <img src="@/assets/images/hand-down.png" class="hand-down" />
       </div>
 
       <div class="row">
@@ -53,12 +54,6 @@
                     </td>
                     <td class="text-left font-weight-bold">{{nearByStats.deaths}} deaths</td>
                   </tr>
-                  <!-- <tr>
-                    <td>
-                      <img src="@/assets/images/corona-recovered-sm.png" class="stat-icon-alt mr-2" />
-                    </td>
-                    <td class="text-left font-weight-bold">{{nearByStats.recovered}} recovered</td>
-                  </tr>-->
                 </table>
               </div>
             </div>
@@ -134,7 +129,7 @@ export default {
       locationLoading: false,
 
       map: {
-        zoom: 1,
+        zoom: 13,
         center: latLng(47.41322, -1.219482),
         url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
         options: {
@@ -197,35 +192,42 @@ export default {
     },
 
     customZoom() {
-      // return 13 - this.coronaRadius / 77;
-      return 13 - (13 / 1000) * this.coronaRadius;
+      return parseInt(13 - (13 / 950) * this.coronaRadius);
     }
   }
 };
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
 .title {
   position: relative;
-}
+  .text {
+    background-color: #373737;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+  }
 
-.text {
-  background-color: #373737;
-  color: white;
-  padding: 0.5rem 1rem;
-  border-radius: 1.5rem;
-  font-size: 2rem;
-}
+  .icon {
+    background-color: transparent;
+    padding: 0.25rem;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+  }
 
-.icon {
-  background-color: transparent;
-  padding: 0.25rem;
-  border-radius: 50%;
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
+  .hand-down {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    left: calc(50% - 130px);
+    bottom: 0;
+    transform: translateY(100%);
+    z-index: 1;
+  }
 }
 </style>
