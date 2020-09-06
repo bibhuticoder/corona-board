@@ -4,3 +4,6 @@ Coronaboard is a web dashboard that gives you latest information, all over the W
 
 ## Demo
 https://bibhuticoder.github.io/corona-board/
+
+## License
+MIT. Copyright (c) Bibhuti Poudyal
